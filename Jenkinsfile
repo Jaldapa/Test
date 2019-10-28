@@ -2,7 +2,7 @@ import jenkins.model.*
 
 def GITURL = 'https://github.com/Jaldapa/Test.git'
 def BRANCH = 'master'
-def PIPELINE_GITURL = 'https://github.com/pacroy/abap-ci-postman.git'
+def PIPELINE_GITURL = 'https://github.com/jaldapa/abap-ci-postman.git'
 def PACKAGE = '''ZTEST_JCC'''
 def COVERAGE = 80
 def VARIANT = "DEFAULT"
