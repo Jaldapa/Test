@@ -11,7 +11,7 @@ parallel (
     "NPL":{
         node {
         	def LABEL = "NPL"
-        	def HOST = "sohdigital.stratesys-ts.com"
+        	def HOST = "93.174.1.93"
         	def CREDENTIAL = "NPL"
         	
         	git poll: true, branch: BRANCH, url: GITURL
