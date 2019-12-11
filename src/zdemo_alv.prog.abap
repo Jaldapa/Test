@@ -106,7 +106,9 @@ ENDFORM.                    "DISPLAY_ALV_REPORT" DISPLAY_ALV_REPORT
 *  <--  p2        text
 *----------------------------------------------------------------------*
 FORM DATA_RETRIVEL .
+
   SELECT * FROM SFLIGHT INTO TABLE IT_SFLIGHT.
+
 ENDFORM.                    " DATA_RETRIVEL*-------------------------------------------------------------------*
 * Form  TOP-OF-PAGE                                                 *
 *-------------------------------------------------------------------*
